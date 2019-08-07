@@ -37,7 +37,7 @@ public class PicsController {
             if (type != null) {
                 if ("GIF".equals(type.toUpperCase())||"PNG".equals(type.toUpperCase())||"JPG".equals(type.toUpperCase())) {
                     // 项目在容器中实际发布运行的根路径
-                    String realPath = "E:\\apache\\uploadForTomcat\\";
+                    String realPath = "/home/webtest1/pics/";
 //                    String realPath = request.getSession().getServletContext().getRealPath("/");
                     // 自定义的文件名称
                     String trueFileName = String.valueOf(System.currentTimeMillis()) + fileName;

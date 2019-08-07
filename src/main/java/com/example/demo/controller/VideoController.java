@@ -31,7 +31,8 @@ public class VideoController {
             if (type != null) {
                 if ("MP4".equals(type.toUpperCase())) {
                     // 项目在容器中实际发布运行的根路径
-                    String realPath = "E:\\apache\\uploadForTomcat\\video\\";
+//                    String realPath = "E:\\apache\\uploadForTomcat\\video\\";
+                    String realPath = "/home/webtest1/videos/";
 //                    String realPath = request.getSession().getServletContext().getRealPath("/");
                     // 自定义的文件名称
                     String trueFileName = String.valueOf(System.currentTimeMillis()) + fileName;
